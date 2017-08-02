@@ -1,0 +1,4 @@
+baseURL = "http://majidkn.com/"
+languageCode = "fa-ir"
+title = "My New Hugo Site"
+theme = "cactus"
