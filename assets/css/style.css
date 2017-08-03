@@ -50,10 +50,11 @@
 }
 body{
   font-family: IRANSans;
-  background: #000;
+  background: #489ea8;
   padding: 0;
   margin: 0;
   direction: rtl;
+  overflow: hidden;
 }
 section{
   display: table;
@@ -66,7 +67,27 @@ h1{
   vertical-align: middle;
   font-size: 64px;
   color: #FFF;
-  border-bottom: 3px solid #FFF;
+  border: 3px solid #FFF;
+}
+.icons{
+	position: absolute;
+	bottom: -25px;
+	text-align: center;
+	width: 100%;
+}
+.icons a:first-child, .icons a:last-child{
+	position: relative;
+}
+.icons a:last-child{
+	bottom: 5px;
+}
+.icons a:first-child{
+	font-size: 87%;
+	bottom: 3px;
+}
+a{
+	color: #FFF;
+	text-decoration: none;
 }
 span{
     display: block;
@@ -74,9 +95,18 @@ span{
 }
 @media (max-width: 459px) {
     h1{
-        font-size: 36px;
+        font-size: 36px !important;
     }
     span{
         font-size: 18px;
     }
+	.icons{
+		bottom: -10px;
+	}
+	.icons a:last-child{
+		bottom: 3px;
+	}
+	.icons a:last-child{
+		font-size: 91%;
+	}
 }
