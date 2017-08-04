@@ -71,9 +71,10 @@ h1{
 }
 .icons{
 	position: absolute;
-	bottom: -25px;
+	bottom: 0;
 	text-align: center;
 	width: 100%;
+	font-size: 70%;
 }
 .icons a:first-child, .icons a:last-child{
 	position: relative;
@@ -100,13 +101,13 @@ span{
     span{
         font-size: 18px;
     }
-	.icons{
-		bottom: -10px;
-	}
 	.icons a:last-child{
 		bottom: 3px;
 	}
 	.icons a:last-child{
 		font-size: 91%;
+	}
+	.icons a:first-child{
+		bottom: 1px;
 	}
 }
