@@ -6,3 +6,8 @@ var scJsHost = (("https:" == document.location.protocol) ?
 document.write("<sc"+"ript type='text/javascript' src='" +
 scJsHost+
 "statcounter.com/counter/counter.js'></"+"script>");
+$('.fa-angle-down').click(function() {
+    $('html, body').animate({
+        scrollTop: $(".post").offset().top
+    }, 1000);
+})
