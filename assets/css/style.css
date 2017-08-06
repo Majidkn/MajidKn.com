@@ -80,6 +80,7 @@ section{
     bottom: 0;
     text-align: center;
     width: 100%;
+	overflow: hidden;
 }
 
 h1 p{
@@ -197,7 +198,7 @@ input{
 #comments .fa-comments{
 	display: block;
 	color: rgba(0, 0, 0, 0.1);
-	font-size: 250px;
+	font-size: 50vw;
 	position: absolute;
 	top: 0;
 	left: 20px;
