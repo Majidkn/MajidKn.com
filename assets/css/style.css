@@ -52,6 +52,7 @@
 body{
   font-family: IRANSans;
   background: #1b74bf;
+  color: #2a2e2e;
   padding: 0;
   margin: 0;
   direction: rtl;
@@ -185,11 +186,21 @@ input{
 #navbar ul li a{
 	color: #fff;
 }
-#disqus_thread{
+#comments{
+	position: relative;
 	max-width: 50vw;
 	margin: 20px auto;
 	background: #FFF;
+	min-height: 165px;
 	padding: 50px;
+}
+#comments .fa-comments{
+	display: block;
+	color: rgba(0, 0, 0, 0.1);
+	font-size: 250px;
+	position: absolute;
+	top: 0;
+	left: 20px;
 }
 @media (max-width: 459px) {
     h1{
