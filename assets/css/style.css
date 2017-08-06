@@ -185,6 +185,12 @@ input{
 #navbar ul li a{
 	color: #fff;
 }
+#disqus_thread{
+	max-width: 50vw;
+	margin: 20px auto;
+	background: #FFF;
+	padding: 50px;
+}
 @media (max-width: 459px) {
     h1{
         font-size: 36px !important;
@@ -201,7 +207,7 @@ input{
 	.icons a:first-child{
 		bottom: 1px;
 	}
-	.post{
+	.post, #disqus_thread{
 		max-width: 100vw
 	}
 }
