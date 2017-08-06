@@ -131,6 +131,12 @@ input{
 	resize: none;
 	direction: ltr;
 }
+.single-post{
+	background: #1b74bf;
+	border: none;
+	width: 100vw;
+	height: 100vh;
+}
 .post{
 	background: #FFF;
 	max-width: 50vw;
