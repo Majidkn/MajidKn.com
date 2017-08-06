@@ -63,13 +63,24 @@ section{
   	width: calc(100% - 6px);
   	border: 3px solid #FFF;
 }
-h1{
+.h1{
   text-align:center;
   display: table-cell;
   vertical-align: middle;
   font-size: 64px;
   color: #FFF;
+  position: relative;
 }
+.single-post .fa-pencil {
+    display: block;
+    color: rgba(0,0,0,.1);
+    font-size: calc(100vh - 66px);
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+}
+
 h1 p{
 	font-size: 50%;
 }
@@ -151,6 +162,28 @@ input{
 	margin: 30px 40px;
 	color: #FFF;
 	border-bottom: 1px dashed #FFF;
+}
+#navbar{
+	position: absolute;
+	float: right;
+	width: calc(100% - 60px);
+	padding: 20px 30px;
+	border-bottom: 3px solid #1867aa;
+	text-align: center;
+	z-index: 2;
+}
+#navbar ul{
+	padding: 0px;
+	margin: 0px;
+}
+#navbar ul li{
+	float: right;
+	list-style: none;
+	padding: 3px 0 0 50px;
+	line-height: 20px;
+}
+#navbar ul li a{
+	color: #fff;
 }
 @media (max-width: 459px) {
     h1{
