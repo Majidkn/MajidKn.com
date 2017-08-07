@@ -10,4 +10,4 @@ TODO List:
 - [ ] Make sitemap page
 - [ ] Add keywords to add-post page
 - [ ] Meta keywords supporting
-- [ ] Make add-post page responsive 
+- [ ] Responsive add-post page 
