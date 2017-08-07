@@ -194,6 +194,7 @@ input{
 	background: #FFF;
 	min-height: 165px;
 	padding: 50px;
+	/*border-radius: 5px 5px 0 0;*/
 }
 #comments .fa-comments{
 	display: block;
@@ -203,8 +204,27 @@ input{
 	top: 0;
 	left: 20px;
 }
+#comments .header{
+	float: right;
+	width: 100%;
+	height: 60px;
+	position: absolute;
+	top: 0;
+	right: 0;
+	background: #d4d4d4;
+	margin: 0;
+	border: 2px solid #B4B4B4;
+	border-width: 0 0 2px 0;
+	/*border-radius: 5px 5px 0 0;*/
+}
+#comments .header h2{
+	text-align: center;
+	line-height: 25px;
+	color: #8D8D8D;
+}
 #disqus_thread{
 	position: relative;
+	padding-top: 50px;
 }
 @media (max-width: 459px) {
     h1{
